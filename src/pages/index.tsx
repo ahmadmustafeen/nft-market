@@ -5,6 +5,7 @@ import { Main } from '@/templates/Main';
 
 const Index = () => {
   const router = useRouter();
+  const ahmad = "";
 
   return (
     <Main
@@ -21,7 +22,7 @@ const Index = () => {
           alt="Nextjs starter banner"
         />
       </a>
-      <a>asd</a>
+      <a>{"asd"}</a>
       <h1 className="text-2xl font-bold">
         Boilerplate code for your Nextjs project with Tailwind CSS
       </h1>
